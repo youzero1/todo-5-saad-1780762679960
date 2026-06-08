@@ -7,10 +7,10 @@ export default function TodoPage() {
   const store = useTodos();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-50 via-white to-amber-50 flex flex-col items-center py-16 px-4">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-white to-orange-100 flex flex-col items-center py-16 px-4">
       {/* Header */}
       <div className="mb-10 text-center">
-        <h1 className="text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-500 select-none">
+        <h1 className="text-6xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-600 select-none">
           Todo 5
         </h1>
         <p className="mt-2 text-gray-400 text-sm tracking-wide">Stay on top of your day</p>
