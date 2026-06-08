@@ -25,7 +25,7 @@ export default function TodoInput({ onAdd, onToggleAll, hasTodos }: TodoInputPro
           onClick={onToggleAll}
           className={clsx(
             'flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors',
-            'text-gray-300 hover:text-indigo-400'
+            'text-gray-300 hover:text-blue-400'
           )}
           aria-label="Toggle all"
         >
@@ -48,7 +48,7 @@ export default function TodoInput({ onAdd, onToggleAll, hasTodos }: TodoInputPro
         className={clsx(
           'flex-shrink-0 px-4 py-1.5 rounded-lg text-sm font-semibold transition-all',
           value.trim()
-            ? 'bg-indigo-500 text-white hover:bg-indigo-600 shadow-sm'
+            ? 'bg-blue-500 text-white hover:bg-blue-600 shadow-sm'
             : 'bg-gray-100 text-gray-300 cursor-not-allowed'
         )}
       >

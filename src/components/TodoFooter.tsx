@@ -36,8 +36,8 @@ export default function TodoFooter({
             className={clsx(
               'px-3 py-1 rounded-lg text-xs font-medium transition-all',
               filter === f.value
-                ? 'bg-indigo-500 text-white shadow-sm'
-                : 'text-gray-400 hover:text-indigo-500 hover:bg-indigo-50'
+                ? 'bg-blue-500 text-white shadow-sm'
+                : 'text-gray-400 hover:text-blue-500 hover:bg-blue-50'
             )}
           >
             {f.label}
